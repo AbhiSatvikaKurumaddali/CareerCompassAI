@@ -7,15 +7,6 @@ const path = require("path");
 const connectDB = require("./config/db");
 const { errorHandler, notFound } = require("./middleware/errorHandler");
 
-
-app.use(express.static(path.join(__dirname, '../frontend/dist')));
-
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html'));
-});
-
-
 const authRoutes = require("./routes/authRoutes");
 const profileRoutes = require("./routes/profileRoutes");
 const careerRoutes = require("./routes/careerRoutes");
@@ -60,6 +51,13 @@ app.use("/api/jobs", jobRoutes);
 app.use("/api/progress", progressRoutes);
 app.use("/api/notifications", notificationRoutes);
 app.use("/api/chat", chatRoutes);
+
+// --- Serve frontend build (must come AFTER all /api routes) ----------------
+app.use(express.static(path.join(__dirname, "../frontend/dist")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../frontend/dist", "index.html"));
+});
 
 // --- 404 + error handling ---------------------------------------------------
 app.use(notFound);
