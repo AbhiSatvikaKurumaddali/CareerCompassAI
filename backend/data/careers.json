@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Frontend Developer",
+    "description": "Builds user-facing web interfaces using HTML, CSS, JavaScript and modern frameworks like React.",
+    "requiredSkills": ["html", "css", "javascript", "react", "git", "responsive design"],
+    "salaryRange": { "min": 55000, "max": 110000, "currency": "USD" },
+    "growthOutlook": "High growth — demand for interactive web experiences continues to rise.",
+    "relatedInterests": ["design", "web", "ui/ux", "coding"],
+    "industry": "Software"
+  },
+  {
+    "title": "Backend Developer",
+    "description": "Designs and maintains server-side logic, databases, and APIs that power applications.",
+    "requiredSkills": ["node.js", "express", "mongodb", "sql", "rest api", "system design"],
+    "salaryRange": { "min": 60000, "max": 120000, "currency": "USD" },
+    "growthOutlook": "Strong growth driven by cloud and API-first architectures.",
+    "relatedInterests": ["logic", "systems", "databases", "coding"],
+    "industry": "Software"
+  },
+  {
+    "title": "Full Stack Developer",
+    "description": "Works across the entire stack — frontend, backend, and databases — to build complete applications.",
+    "requiredSkills": ["javascript", "react", "node.js", "mongodb", "rest api", "git"],
+    "salaryRange": { "min": 65000, "max": 130000, "currency": "USD" },
+    "growthOutlook": "Very high demand — versatile developers are prized by startups and enterprises alike.",
+    "relatedInterests": ["coding", "problem solving", "web", "systems"],
+    "industry": "Software"
+  },
+  {
+    "title": "Data Analyst",
+    "description": "Collects, cleans, and interprets data to help organizations make informed decisions.",
+    "requiredSkills": ["excel", "sql", "python", "data visualization", "statistics", "power bi"],
+    "salaryRange": { "min": 50000, "max": 95000, "currency": "USD" },
+    "growthOutlook": "Growing steadily as organizations become more data-driven.",
+    "relatedInterests": ["data", "numbers", "research", "business"],
+    "industry": "Data & Analytics"
+  },
+  {
+    "title": "Data Scientist",
+    "description": "Uses statistics, machine learning, and programming to extract insights and build predictive models.",
+    "requiredSkills": ["python", "machine learning", "statistics", "sql", "pandas", "data visualization"],
+    "salaryRange": { "min": 75000, "max": 150000, "currency": "USD" },
+    "growthOutlook": "Very high growth — one of the fastest-growing tech roles globally.",
+    "relatedInterests": ["data", "ai", "research", "math"],
+    "industry": "Data & Analytics"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "description": "Builds, trains, and deploys machine learning models into production systems.",
+    "requiredSkills": ["python", "machine learning", "deep learning", "tensorflow", "mathematics", "mlops"],
+    "salaryRange": { "min": 85000, "max": 160000, "currency": "USD" },
+    "growthOutlook": "Explosive growth fueled by AI adoption across industries.",
+    "relatedInterests": ["ai", "research", "math", "coding"],
+    "industry": "AI & Machine Learning"
+  },
+  {
+    "title": "UI/UX Designer",
+    "description": "Designs intuitive, accessible, and visually appealing digital experiences for users.",
+    "requiredSkills": ["figma", "wireframing", "user research", "prototyping", "design systems"],
+    "salaryRange": { "min": 50000, "max": 105000, "currency": "USD" },
+    "growthOutlook": "Steady growth as companies invest in user experience.",
+    "relatedInterests": ["design", "psychology", "creativity", "ui/ux"],
+    "industry": "Design"
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "Automates infrastructure, CI/CD pipelines, and ensures reliable deployment of software systems.",
+    "requiredSkills": ["docker", "kubernetes", "aws", "ci/cd", "linux", "terraform"],
+    "salaryRange": { "min": 70000, "max": 140000, "currency": "USD" },
+    "growthOutlook": "High growth — cloud-native operations are now essential.",
+    "relatedInterests": ["systems", "automation", "cloud", "infrastructure"],
+    "industry": "Cloud & Infrastructure"
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "description": "Protects systems and networks from threats by monitoring, detecting, and responding to security incidents.",
+    "requiredSkills": ["network security", "linux", "siem", "penetration testing", "risk assessment"],
+    "salaryRange": { "min": 60000, "max": 125000, "currency": "USD" },
+    "growthOutlook": "Very high demand amid rising cyber threats worldwide.",
+    "relatedInterests": ["security", "systems", "problem solving"],
+    "industry": "Cybersecurity"
+  },
+  {
+    "title": "Product Manager",
+    "description": "Defines product vision, gathers requirements, and coordinates between engineering, design, and business teams.",
+    "requiredSkills": ["product strategy", "communication", "agile", "user research", "analytics"],
+    "salaryRange": { "min": 70000, "max": 145000, "currency": "USD" },
+    "growthOutlook": "Consistently strong demand across tech and non-tech companies.",
+    "relatedInterests": ["business", "strategy", "leadership", "communication"],
+    "industry": "Product"
+  },
+  {
+    "title": "Cloud Engineer",
+    "description": "Designs and manages scalable cloud infrastructure on platforms like AWS, Azure, or GCP.",
+    "requiredSkills": ["aws", "azure", "networking", "terraform", "linux", "cloud architecture"],
+    "salaryRange": { "min": 70000, "max": 135000, "currency": "USD" },
+    "growthOutlook": "High growth as more companies migrate to the cloud.",
+    "relatedInterests": ["cloud", "systems", "infrastructure"],
+    "industry": "Cloud & Infrastructure"
+  },
+  {
+    "title": "Mobile App Developer",
+    "description": "Builds native or cross-platform mobile applications for iOS and Android.",
+    "requiredSkills": ["react native", "flutter", "javascript", "kotlin", "swift", "mobile ui"],
+    "salaryRange": { "min": 55000, "max": 115000, "currency": "USD" },
+    "growthOutlook": "Steady growth driven by mobile-first business strategies.",
+    "relatedInterests": ["coding", "design", "mobile", "ui/ux"],
+    "industry": "Software"
+  },
+  {
+    "title": "Business Analyst",
+    "description": "Bridges business needs and technical solutions through requirements gathering and process analysis.",
+    "requiredSkills": ["excel", "sql", "communication", "requirements gathering", "process modeling"],
+    "salaryRange": { "min": 50000, "max": 100000, "currency": "USD" },
+    "growthOutlook": "Stable, consistent demand across industries.",
+    "relatedInterests": ["business", "communication", "data", "strategy"],
+    "industry": "Business"
+  },
+  {
+    "title": "QA / Test Engineer",
+    "description": "Ensures software quality through manual and automated testing strategies.",
+    "requiredSkills": ["selenium", "test automation", "manual testing", "javascript", "api testing"],
+    "salaryRange": { "min": 50000, "max": 100000, "currency": "USD" },
+    "growthOutlook": "Steady demand as automation testing grows in importance.",
+    "relatedInterests": ["quality", "detail-oriented", "coding", "problem solving"],
+    "industry": "Software"
+  },
+  {
+    "title": "AI Prompt Engineer",
+    "description": "Designs and optimizes prompts and workflows for large language models and AI agents.",
+    "requiredSkills": ["prompt engineering", "python", "llm", "nlp", "api integration"],
+    "salaryRange": { "min": 65000, "max": 140000, "currency": "USD" },
+    "growthOutlook": "Emerging but rapidly growing field tied to generative AI adoption.",
+    "relatedInterests": ["ai", "language", "creativity", "research"],
+    "industry": "AI & Machine Learning"
+  }
+]

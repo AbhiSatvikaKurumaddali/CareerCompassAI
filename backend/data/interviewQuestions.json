@@ -1,0 +1,25 @@
+{
+  "technical": [
+    { "question": "Explain the difference between let, const, and var in JavaScript.", "keywords": ["scope", "block", "hoisting", "reassign", "const", "let"] },
+    { "question": "What is a REST API and what makes an API RESTful?", "keywords": ["stateless", "http", "resource", "endpoint", "crud", "json"] },
+    { "question": "Explain the concept of time and space complexity with an example.", "keywords": ["big o", "complexity", "algorithm", "efficiency", "loop"] },
+    { "question": "What is the difference between SQL and NoSQL databases?", "keywords": ["schema", "relational", "document", "scalability", "mongodb", "sql"] },
+    { "question": "Describe how you would design a scalable system for a URL shortener.", "keywords": ["database", "cache", "load balancer", "hashing", "scalability"] },
+    { "question": "What is the difference between supervised and unsupervised learning?", "keywords": ["labeled", "unlabeled", "classification", "clustering", "model"] },
+    { "question": "Explain how Docker containers differ from virtual machines.", "keywords": ["container", "isolation", "kernel", "image", "lightweight"] }
+  ],
+  "hr": [
+    { "question": "Tell me about yourself.", "keywords": ["background", "experience", "skills", "goal", "passion"] },
+    { "question": "Why do you want to work for this company?", "keywords": ["mission", "values", "growth", "culture", "product"] },
+    { "question": "Where do you see yourself in 5 years?", "keywords": ["growth", "goal", "career", "learning", "leadership"] },
+    { "question": "What are your salary expectations?", "keywords": ["research", "range", "market", "negotiable", "value"] },
+    { "question": "Why are you leaving your current job / looking for a new opportunity?", "keywords": ["growth", "opportunity", "learning", "challenge", "positive"] }
+  ],
+  "behavioral": [
+    { "question": "Tell me about a time you faced a conflict with a teammate and how you resolved it.", "keywords": ["communication", "listen", "compromise", "resolution", "team"] },
+    { "question": "Describe a situation where you had to meet a tight deadline.", "keywords": ["prioritize", "plan", "time management", "pressure", "deliver"] },
+    { "question": "Tell me about a time you failed and what you learned from it.", "keywords": ["mistake", "learn", "improve", "accountability", "growth"] },
+    { "question": "Describe a project you are most proud of.", "keywords": ["impact", "result", "challenge", "skills", "outcome"] },
+    { "question": "How do you handle feedback or criticism?", "keywords": ["open", "listen", "improve", "growth", "constructive"] }
+  ]
+}
