@@ -14,6 +14,9 @@ export default defineConfig({
         target: "http://localhost:5000",
         changeOrigin: true,
       },
+       build: {
+    outDir: 'dist' // must match path.join(__dirname, '../frontend/dist') in server.js
+  },
     },
   },
 });
