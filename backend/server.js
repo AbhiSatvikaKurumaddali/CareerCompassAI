@@ -7,7 +7,15 @@ const path = require("path");
 const connectDB = require("./config/db");
 const { errorHandler, notFound } = require("./middleware/errorHandler");
 
-// Route modules
+
+app.use(express.static(path.join(__dirname, '../frontend/dist')));
+
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html'));
+});
+
+
 const authRoutes = require("./routes/authRoutes");
 const profileRoutes = require("./routes/profileRoutes");
 const careerRoutes = require("./routes/careerRoutes");
